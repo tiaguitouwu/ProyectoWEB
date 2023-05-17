@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200;400&display=swap');
 :root {
-  --main:#328fe0;
+  --main:#1175af;
 }
 *{
     box-sizing: border-box;
@@ -82,9 +82,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Images/indexBackground.jpg");
+    ,url("../Images/index.gif");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
     background-position: center center;
 }
 #hero h1{
@@ -143,7 +143,7 @@ header a:hover{
     margin-top: 0px;
 }
 #somos-proya .img-container{
-    background-image: url("https://i.gifer.com/Lp4t.gif");
+    background-image: url("../Images/section.gif");
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -187,12 +187,14 @@ header a:hover{
     border-radius: 15px;
 }
 #nuestros-programas .carta{
-    padding: 50px;
-    background-size: 100% 150px;
+    padding: 2vw;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position-y: 0;
     background-color: rgba(50, 50, 50, 1);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    min-width: 15%;
+    max-width: 15%;
 }
 
 .carta:first-child{
@@ -229,6 +231,14 @@ header a:hover{
         rgba(0,0,0,0.5)
     )
     ,url("../Images/robot1.jpg");
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../Images/robot1.jpg");
 
 }
 
@@ -243,7 +253,7 @@ footer p{
     color: rgb(100,100,100);
 }
 footer .container{
-    height: 150px;
+    height: 6vw;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
