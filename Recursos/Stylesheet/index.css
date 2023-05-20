@@ -272,10 +272,10 @@ footer p{
     color: rgb(100,100,100);
 }
 footer .container{
-    height: 5vw;
+    height: 15vw;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 /* Botón extraído de la página codepen.io */
