@@ -84,7 +84,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Images/index.gif");
+    ,url("../Images/index/index.gif");
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position: center center;
@@ -101,7 +101,7 @@ header a:hover{
 /* Enlaces a diferentes partes del proyecto */
 #caracteristicas{
     background-color: var(--main);
-    background-image: url("../Images/robot1.jpg");
+    background-image: url("../Images/index/robot1.jpg");
     background-repeat: no-repeat;
     background-position-y: 7vw;
     background-position-x: 50vw;
@@ -134,7 +134,7 @@ header a:hover{
 .subtitle{
     /* padding-left: 3vw; */
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 150%;
     justify-content: flex-start;
 }
 
@@ -161,7 +161,7 @@ header a:hover{
     margin-top: 0px;
 }
 #resumen .img-container{
-    background-image: url("../Images/section.gif");
+    background-image: url("../Images/index/section.gif");
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -176,7 +176,7 @@ header a:hover{
 }
 
 #integrantes .container{
-    padding: 150px 12px;
+    padding: 6em 1em;
 }
 
 #integrantes .programas{
@@ -215,6 +215,9 @@ header a:hover{
     min-width: 15%;
     max-width: 15%;
 }
+#integrantes .raise {
+    padding: 10%;
+}
 
 .carta:first-child{
     background-image: linear-gradient(
@@ -222,7 +225,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Images/robot1.jpg");
+    ,url("../Images/index/robot1.jpg");
 
 }
 
@@ -232,7 +235,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Images/robot2.jpg");
+    ,url("../Images/index/robot2.jpg");
 }
 
 .carta:nth-child(3){
@@ -241,7 +244,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Images/indexBackground.jpg");
+    ,url("../Images/index/indexBackground.jpg");
 }
 .carta:nth-child(4){
     background-image: linear-gradient(
@@ -249,7 +252,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Images/robot1.jpg");
+    ,url("../Images/index/robot1.jpg");
 }
 .carta:nth-child(5){
     background-image: linear-gradient(
@@ -257,7 +260,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Images/robot1.jpg");
+    ,url("../Images/index/robot2.jpg");
 
 }
 
@@ -309,5 +312,5 @@ footer .container{
     font: inherit;
     line-height: 1;
     margin: 0.5em;
-    padding: 1em 2em;
+    padding: 1em;
 }
