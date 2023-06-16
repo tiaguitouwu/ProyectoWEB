@@ -1,0 +1,45 @@
+@import "url('https://fonts.googleapis.com/css2?family=Antonio:wght@200;400&display=swap');";
+
+:root {
+    --background:#8ec7e8;
+}
+
+body {
+    font-family: 'Antonio', sans-serif;
+    background: #eee 	
+}
+
+.form-container{
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 8em;
+}
+
+.form-signin {
+  max-width: 50%;
+  padding: 1% 5%;
+  margin: 0 auto;
+  background-color: var(--background);
+  border: none;
+}
+
+.form-signin-heading,	.checkbox {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+}
+
+input{
+    border: none;
+}
+
+.raise:hover, .raise:focus {
+    border-color: var(--hover);
+    color: black;
+    cursor: pointer;
+}

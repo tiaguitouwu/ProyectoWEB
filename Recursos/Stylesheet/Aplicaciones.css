@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200;400&display=swap');
+:root {
+  --main:#1175af;
+}
+*{
+    box-sizing: border-box;
+}
+*::selection{
+    background:#c0e8f0;/* Da estilo al momento de seleccionar una palabra*/
+}
+html{
+    scroll-behavior: smooth;/* Elimina el scroll duro */
+}
+
+body{
+    font-family: 'Antonio', sans-serif;
+    margin: 0;
+    background-color: beige;
+}
+footer{
+    font-family: 'Antonio', sans-serif;
+    margin: 0;
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;} /* Elimina el estilo feo de la lista*/
+li{ font-size: 1.25em;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* Encabezado */
+header{
+    background-color: rgb(245,245,245);
+    position: fixed;
+    width: 100%;
+}
+
+header .logo{
+    margin: 0;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: var(--main);
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: var(--main);
+}
+/* Presentación */
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("header\ aplicaciones.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center center;
+}
+#hero h1{
+    color: white;
+    font-size: 5em;
+}
+#hero h2{
+    color: paleturquoise;
+    font-size: 3em;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-container {
+    display: flex;
+    width: calc(200px * 10); /* Ajusta este valor según la cantidad de slides */
+    animation: slide-animation 50s linear infinite; /* Ajusta la duración según sea necesario */
+    
+  }
+  
+  .slide {
+    flex: 1 0 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .slide img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .slide-info {
+    margin-top: 10px;
+   
+
+  }
+  
+  @keyframes  slide-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
