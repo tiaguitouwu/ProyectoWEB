@@ -6,11 +6,15 @@
 
 body {
     font-family: 'Antonio', sans-serif;
-    background: #eee 	
+    background-image: url("../Images/index/index.gif");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center center;
 }
 
 .form-container{
     max-width: 80vw;
+    height: 47vw;
     margin: auto;
     padding-top: 8em;
 }
@@ -21,10 +25,7 @@ body {
   margin: 0 auto;
   background-color: var(--background);
   border: none;
-}
-
-.form-signin-heading,	.checkbox {
-    margin-bottom: 30px;
+  text-align: center;
 }
 
 .form-control {

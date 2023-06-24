@@ -2,5 +2,6 @@
     "editor.fontSize": 14,
     "editor.minimap.autohide": false,
     "git.alwaysShowStagedChangesResourceGroup": true,
-    "git.alwaysSignOff": true
+    "git.alwaysSignOff": true,
+    "editor.tabSize": 4
 }
